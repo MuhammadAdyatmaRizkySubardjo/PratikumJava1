@@ -9,6 +9,11 @@ public class main {
         char nilaiAbjad = 'A';
         boolean tampan = true;
 
-        System.out.println(namaDepan + namaTengah + namaBelakang );
-    }
+            System.out.println(namaDepan + namaTengah + namaBelakang );
+
+
+
+        char[] uniskaChar = {'U' , 'N', 'I' , 'S' , 'K' , 'A'};
+        String uniskaString = new String(uniskaChar);
+        System.out.println(uniskaString); }
 }
